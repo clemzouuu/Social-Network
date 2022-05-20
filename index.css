@@ -1,0 +1,10 @@
+#profile_picture > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#second_picture > img {
+    height: 200px;
+    width: 500px;
+}

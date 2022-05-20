@@ -1,0 +1,16 @@
+body {
+    margin: 2% 5%;
+    background-color: rgba(221, 222, 221, 0.867);
+}
+
+#content {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 350px;
+    border-radius: 20px;
+    width: 500px;
+    padding: 50px;
+    background-color: white;
+}
+

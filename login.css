@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(221, 222, 221, 0.867);
+}
+
+header > img {
+    position: relative;
+    top:30px;
+    right: -630px;
+    height: 120px;
+    width: 120px;
+}
+
+header > p {
+    position: relative;
+    top:35px;
+    right: -570px;
+    font-size: 1.3em;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    height: 500px;
+}
+
+h1 {
+    color: black;
+    grid-row: 1;
+    position: relative;
+    top:50px;
+    left: 250px;
+    width: 200px;
+}
+
+form {
+    line-height: 2.5;
+}
+
+.inscription {
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5% 15% 5% 15%;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.connexion {
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5% 15% 5% 15%;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+}
+
+.connexion > * {
+    position: relative;
+    top:80px;
+}
+
+.connexion > form > .button{
+    position: relative;
+    top:80px;
+}
+
+#submit,.button {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1877F2;
+    color:rgb(255, 255, 255);
+    height: 30px;
+}

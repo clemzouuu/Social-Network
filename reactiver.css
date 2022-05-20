@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(221, 222, 221, 0.867);
+}
+
+header > img {
+    position: relative;
+    top:50px;
+    right: -630px;
+}
+
+header > p {
+    position: relative;
+    top:50px;
+    right: -570px;
+    font-size: 1.3em;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.box {
+    height: 500px;
+}
+
+h1 {
+    color: black;
+    margin : 0;
+    position: relative;
+    top:120px;
+    left: 550px;
+    display: inline;
+    width: 200px;
+    z-index: 2;
+}
+
+form {
+    line-height: 2.5;
+}
+
+
+.connexion {
+    z-index:1;
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+    position: relative;
+    right: -300px;
+    bottom: -30px;
+    border: 1px solid black;
+    padding: 5% 15% 5% 15%;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 350px;
+}
+
+.connexion > * {
+    position: relative;
+    top:80px;
+}
+
+.connexion > form > .button{
+    position: relative;
+    top:90px;
+    right:-125px;
+}
+
+#submit,.button {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1877F2;
+    color:rgb(255, 255, 255);
+    height: 30px;
+}

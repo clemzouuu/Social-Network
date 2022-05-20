@@ -1,0 +1,24 @@
+body {
+    background-color: rgba(221, 222, 221, 0.867);
+}
+
+#message{
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+#send{
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    left: 700px;
+    top: 300px;
+    text-align: center;
+}

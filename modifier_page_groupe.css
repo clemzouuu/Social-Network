@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(221, 222, 221, 0.867);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#page{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    position: relative;
+    right: -500px;
+
+}
+
+#modifier{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    position: relative;
+    right: -400px;
+    top: 60px;
+}
